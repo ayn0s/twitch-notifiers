@@ -1,10 +1,10 @@
 {
-  "content": "{{mention_prefix}} {{display_name}} Just went live: {{url}}",
+  "content": "{{mention_prefix}} {{display_name}} just went live: {{url}}",
   "embeds": [
     {
       "title": "{{title}}",
       "url": "{{url}}",
-      "description": "{{#if game_name}}**Is playing {{game_name}}**{{/if}}",
+      "description": "{{#if game_name}}**Playing {{game_name}}**{{/if}}",
       "timestamp": "{{now_iso}}",
       "author": {
         "name": "{{display_name}}",
