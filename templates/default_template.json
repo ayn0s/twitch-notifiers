@@ -1,0 +1,24 @@
+{
+  "content": "{{mention_prefix}} {{display_name}} Just went live: {{url}}",
+  "embeds": [
+    {
+      "title": "{{title}}",
+      "url": "{{url}}",
+      "description": "{{#if game_name}}**Is playing {{game_name}}**{{/if}}",
+      "timestamp": "{{now_iso}}",
+      "author": {
+        "name": "{{display_name}}",
+        "url": "{{url}}",
+        "icon_url": "{{profile_image_url}}"
+      },
+      "image": {
+        "url": "{{thumbnail_url}}"
+      },
+      "footer": {
+        "text": "Twitch"
+      }
+    }
+  ],
+  "username": "My Bot Name",
+  "avatar_url": "https://img.freepik.com/vecteurs-libre/robot-vectoriel-graident-ai_78370-4114.jpg?semt=ais_hybrid&w=740&q=80"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "twitch-discord-notifier",
+  "version": "1.1.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
