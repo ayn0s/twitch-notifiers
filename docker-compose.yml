@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   notifier:
-    image: ghcr.io/ayn0s/twitch-notifier:main
+    image: ghcr.io/ayn0s/twitch-notifiers:main
     container_name: twitch-discord-notifier
     restart: unless-stopped
     env_file: .env
