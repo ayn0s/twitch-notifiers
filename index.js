@@ -193,7 +193,7 @@ async function checkOnce() {
         mention_prefix: buildMentionPrefix(),
         login,
         display_name: u.display_name || login,
-        url: `https://twitch.tv/${login}`,
+        url: `<https://twitch.tv/${login}>`,
         title: info.title || 'Live',
         game_name: info.game_name || '',
         started_at: info.started_at || '',
